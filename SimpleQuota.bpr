@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="SimpleQuota.exe"/>
+    <OBJFILES value="SimpleQuota.obj uSimpleQuota.obj ..\MyLib\logfile.obj 
+      ..\MyLib\stringman.obj uAcercaDe.obj uEditorTarea.obj"/>
+    <RESFILES value="SimpleQuota.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) uSimpleQuota.dfm uAcercaDe.dfm uEditorTarea.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="VCLX50.lib NMFast50.lib Vcl50.lib"/>
+    <SPARELIBS value="Vcl50.lib NMFast50.lib VCLX50.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi proide50.bpi Inet50.bpi Inetdb50.bpi Vcldb50.bpi 
+      vclie50.bpi NMFast50.bpi direct50.bpi"/>
+    <PATHCPP value=".;..\MyLib"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="SimpleQuota.cpp"/>
+    <INCLUDEPATH value="..\MyLib;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\MyLib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=3
+Release=603
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3082
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=dev::baltasarq, baltasarq@yahoo.es
+FileDescription=SimpleQuota, utilidad para controlar tamaños de directorios
+FileVersion=1.3.603.1
+InternalName=
+LegalCopyright=Freeware
+LegalTrademarks=
+OriginalFilename=
+ProductName=SimpleQuota
+ProductVersion=1.3
+Comments=Utilidad para controlar quotas. http://usuarios.lycos.es/baltasarq/
+
+[Excluded Packages]
+$(BCB)\Bin\VCLIDE50.bpl=Integrated Development Environment Specific Components
+$(BCB)\Bin\bcbide50.bpl=Borland C++Builder Core IDE Package
+$(BCB)\Bin\bcbcxp50.bpl=Borland C++ Builder Code Explorer
+$(BCB)\Bin\stride50.bpl=String Resource Editor IDE Package
+$(BCB)\Bin\dclisp50.bpl=Borland Internet Solutions Pack Components
+$(BCB)\Bin\rcpkg50.bpl=(untitled)
+$(BCB)\Bin\dclite50.bpl=Borland Integrated Translation Environment
+$(BCB)\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+$(BCB)\Bin\applet50.bpl=Borland Control Panel Applet Package
+$(BCB)\Bin\bcb2kaxserver50.bpl=Borland C++Builder COM Server Components Sample Package
+$(BCB)\Bin\bcbie50.bpl=Borland C++Builder Internet Explorer 5 Components Package
+$(BCB)\Bin\bcbsmp50.bpl=Borland C++ Sample Components
+$(BCB)\Bin\dclbde50.bpl=Borland BDE DB Components
+$(BCB)\Bin\dcldb50.bpl=Borland Database Components
+$(BCB)\Bin\DbX50.bpl=(untitled)
+$(BCB)\Bin\dclib50.bpl=InterBase Data Access Components
+$(BCB)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+$(BCB)\Bin\dclqrt50.bpl=QuickReport Components
+$(BCB)\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+$(BCB)\Bin\dcltee50.bpl=TeeChart 5.0 Components
+$(BCB)\Bin\mfcwizard.bpl=MFC Wizard
+$(BCB)\Bin\dbwebxprt.bpl=Borland Web Wizard Package
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>

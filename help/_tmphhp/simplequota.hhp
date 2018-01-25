@@ -1,0 +1,35 @@
+[OPTIONS]
+TITLE=YourProject
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Compiled file=simplequota.chm
+Error Log file=simplequota.log
+Contents file=simplequota.hhc
+Index File=simplequota.hhk
+Default Topic=elplanificadordetareasdewindows.html
+
+[FILES]
+ejecución.html
+tareas.html
+modificandotareas.html
+elplanificadordetareasdewindows.html
+
+
+
+[WINDOWS]
+Main="Main","simplequota.hhc","simplequota.hhk","","", ,,,,0x061520,200, 0x00304E, [50, 50, 450, 450]  , 0x307e, , , , , , , , 0
+Popup="Popup","simplequota.hhc","simplequota.hhk","","", ,,,,0x061520,200, 0x00304E, [50, 50, 450, 450]  , 0x307e, , , , , , , , 0
+
+
+[MAP]
+#include simplequota.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+

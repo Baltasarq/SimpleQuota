@@ -1,0 +1,32 @@
+; This file is maintained by HCW. Do not modify this file directly.
+; Created by HelpMaker
+
+[OPTIONS]
+HCW=0
+TITLE=SimpleQuota
+CONTENTS=ejecución
+COPYRIGHT=freeware dev::baltasarq 2001, 2005
+REPORT=YES
+DBCS=YES
+LCID=0x409 English (United States)
+DEFFONT=Arial,8,0
+ERRORLOG=C:\DOCUME~1\baltasar\MISDOC~1\Projects\SIMPLE~2\help\_tmphpj\simplequota.log
+BMROOT=C:\DOCUME~1\baltasar\MISDOC~1\Projects\SIMPLE~2\help\_tmphpj\
+
+HLP=C:\DOCUME~1\baltasar\MISDOC~1\Projects\SIMPLE~2\help\_tmphpj\simplequota.hlp
+CNT=simplequota.cnt
+
+[FILES]
+C:\DOCUME~1\baltasar\MISDOC~1\Projects\SIMPLE~2\help\_tmphpj\simplequota.rtf
+
+[WINDOWS]
+Main="Main",(,,,),19972,(255,252,234),(192,192,192),f3
+Popup="Popup",(,,,),19972,(255,252,234),(192,192,192),f3
+
+[MAP]
+ejecución = 0
+tareas = 0
+modificandotareas = 0
+elplanificadordetareasdewindows = 0
+
+
