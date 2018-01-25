@@ -1,3 +1,7 @@
+# Backups
+*.back
+*~
+
 # Prerequisites
 *.d
 
@@ -27,6 +31,7 @@
 *.lib
 
 # Executables
+bin/
 *.exe
 *.out
 *.app
